@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anttasks:AntTask xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:anttasks="http://at.bestsolution.efxclipse.tooling.jdt/1.0" buildDirectory="${project}/build">
+  <deploy packagingFormat="exe">
+    <application name="AddressApp" mainclass="ch.makery.address.MainApp" version="0.7"/>
+    <info vendor="edu.makery.ch"/>
+  </deploy>
+  <signjar/>
+</anttasks:AntTask>

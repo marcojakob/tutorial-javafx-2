@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="620.0" xmlns:fx="http://javafx.com/fxml" fx:controller="ch.makery.address.BirthdayStatisticsController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <BarChart fx:id="barChart" legendVisible="false" prefHeight="450.0" prefWidth="620.0" title="Birthdays" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <xAxis>
+        <CategoryAxis fx:id="xAxis" side="BOTTOM">
+          <categories>
+            <FXCollections fx:factory="observableArrayList" />
+          </categories>
+        </CategoryAxis>
+      </xAxis>
+      <yAxis>
+        <NumberAxis side="LEFT" />
+      </yAxis>
+    </BarChart>
+  </children>
+</AnchorPane>

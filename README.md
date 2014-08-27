@@ -1,4 +1,3 @@
-tutorial-javafx-2
-=================
+# JavaFX 2 Tutorial - Sources
 
-Example Sources for JavaFX 8 Tutorial2
+These are example sources for the [JavaFX 2 Tutorial](http://code.makery.ch/java/javafx-2-tutorial-intro/).

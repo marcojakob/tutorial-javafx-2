@@ -1,0 +1,2 @@
+jfx.build.stagingdir = ${workspace}/AddressApp/build
+jfx.build.apptitle = AddressApp
